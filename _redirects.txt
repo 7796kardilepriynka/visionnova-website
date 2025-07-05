@@ -1,0 +1,3 @@
+https://visionnovasolutions.in/* https://www.visionnovasolutions.in/:splat 301!
+http://visionnovasolutions.in/* https://www.visionnovasolutions.in/:splat 301!
+http://www.visionnovasolutions.in/* https://www.visionnovasolutions.in/:splat 301!
