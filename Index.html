@@ -200,19 +200,20 @@
   <div class="contact-container">
     <!-- Contact Form -->
     <div class="contact-form">
-      <form action="https://formsubmit.co/visionnova.solutions@gmail.com" method="POST">
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <input type="tel" placeholder="Your Mobile (optional)" />
-        <textarea placeholder="Your Message" required></textarea>
+  <form action="https://formsubmit.co/visionnova.solutions@gmail.com" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <input type="tel" name="phone" placeholder="Your Mobile (optional)" />
+    <textarea name="message" placeholder="Your Message" required></textarea>
 
-         <input type="hidden" name="_captcha" value="false">
-         <!-- <input type="hidden" name="_next" value="https://yourdomain.com/thankyou.html"> -->
+    <!-- Disable CAPTCHA and redirect after submit -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://visionnovasolutions.in/thankyou.html">
 
-        <button type="submit" class="contact-btn"> Send Message</button>
+    <button type="submit" class="contact-btn">Send Message</button>
+  </form>
+</div>
 
-      </form>
-    </div>
 
     <!-- WhatsApp Box -->
     <div class="whatsapp-box">
