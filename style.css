@@ -1132,6 +1132,20 @@ body {
   color: #94a3b8;
 }
 
+.contact-link {
+  color: #cbd5e1;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  line-height: 1.8;
+ 
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+  text-decoration: none;
+}
+
+
 /* Responsive */
 @media screen and (max-width: 768px) {
   .footer-content {
