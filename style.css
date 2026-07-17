@@ -320,11 +320,13 @@ body {
 .hero-image{
     order:2;
     margin-top:0;
+    width:100%;
     max-width:100%;
+  
 }
 
 .hero-image img{
-    width:85%;
+    width:92%;
     max-width:280px;
 }
 
