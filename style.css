@@ -256,9 +256,8 @@ body {
 
 
 .hero-image {
-  flex: 1;
-  min-width: 180px;
-  max-width: 550px;
+  flex: 1.1;
+  max-width: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -267,7 +266,7 @@ body {
 
 .hero-image img {
   width:100%;
-  max-width:500px;
+  max-width:560px;
   object-fit: cover;
   border-radius: 20px;
   box-shadow: 0 10px 40px rgba(0,0,0,0.1);
