@@ -1,16 +1,7 @@
-const menuToggle = document.getElementById("menuToggle");
-const navLinks = document.getElementById("navLinks");
+const menuCheckbox = document.getElementById("menu-toggle");
 
-// Toggle menu
-menuToggle.addEventListener("click", () => {
-  navLinks.classList.toggle("active");
-});
-
-// Close menu after clicking a link (Mobile only)
-document.querySelectorAll("#navLinks a").forEach(link => {
+document.querySelectorAll(".nav-links a").forEach(link => {
   link.addEventListener("click", () => {
-    if (window.innerWidth <= 768) {
-      navLinks.classList.remove("active");
-    }
+    menuCheckbox.checked = false;
   });
-});;
+});
