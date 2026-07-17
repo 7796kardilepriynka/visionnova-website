@@ -325,8 +325,8 @@ body {
 }
 
 .hero-image img{
-    width:100%;
-    max-width:340px;
+    width:85%;
+    max-width:280px;
 }
 
 .hero-buttons{
