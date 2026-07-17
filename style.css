@@ -162,28 +162,19 @@ body {
 
 
 .hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;   /* Center the content */
-  gap: 70px;
-
-  max-width: 1200px;         /* Same width as other sections */
-  margin: 0 auto;            /* Center the section */
-
   padding: 100px 20px 60px;
   background: linear-gradient(to bottom right, #f9fbff, #ffffff);
 }
 
 .hero-container{
     max-width:1200px;
-    margin:0 auto;
+    margin:auto;
 
     display:flex;
-    align-items:center;
     justify-content:space-between;
+    align-items:center;
     gap:70px;
 }
-
 
 /* .taglinee {
   font-size: 0.9rem;
@@ -286,6 +277,103 @@ body {
 {
    transform: scale(1.01);
   transition: transform 0.3s ease;
+}
+
+//media query css
+
+@media (max-width: 992px){
+
+.hero{
+    padding:80px 20px 50px;
+}
+
+.hero-container{
+    gap:40px;
+}
+
+.hero-content h1{
+    font-size:2.3rem;
+}
+
+.hero-image img{
+    max-width:420px;
+}
+
+}
+
+@media (max-width:768px){
+
+.hero{
+    padding:70px 20px 50px;
+}
+
+.hero-container{
+    flex-direction:column;
+    text-align:center;
+    gap:40px;
+}
+
+.hero-content{
+    max-width:100%;
+    order:1;
+}
+
+.hero-image{
+    order:2;
+    margin-top:0;
+    max-width:100%;
+}
+
+.hero-image img{
+    width:100%;
+    max-width:340px;
+}
+
+.hero-buttons{
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.hero-content h1{
+    font-size:2.2rem;
+}
+
+.hero-content p{
+    font-size:1rem;
+}
+
+}
+
+@media (max-width:480px){
+
+.hero{
+    padding:60px 15px 40px;
+}
+
+.hero-content h1{
+    font-size:1.9rem;
+    line-height:1.2;
+}
+
+.hero-content p{
+    font-size:.95rem;
+}
+
+.hero-image img{
+    max-width:280px;
+}
+
+.hero-buttons{
+    flex-direction:column;
+    align-items:center;
+    gap:12px;
+}
+
+.btn{
+    width:220px;
+    text-align:center;
+}
+
 }
 
 /* services section.... */
